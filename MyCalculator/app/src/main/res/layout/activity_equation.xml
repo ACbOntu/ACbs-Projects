@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="সমীকরণ ভিত্তিক সমাধান(সর্বোচ্চ দ্বিতীয় ঘাত)"
+        android:layout_marginTop="10dp"
+        android:textColor="#00a"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/eqn1"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:background="#00aee5"
+        android:hint="সর্বোচ্চ ঘাতধারী চলকের সহগটি লিখুন"
+        android:textSize="15sp"
+        />
+
+
+    <EditText
+        android:id="@+id/eqn2"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="#00aee5"
+        android:hint="দ্বিতীয় সর্বোচ্চ ঘাতধারী চলকের সহগটি লিখুন"
+        android:textSize="15sp"
+        />
+
+
+    <EditText
+        android:id="@+id/eqn3"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="#00aee5"
+        android:hint="ধ্রুবক পদটি লিখুন"
+        android:textSize="18sp"
+        />
+
+
+
+    <Button
+            android:id="@+id/eqnrslt"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" সমীকরণের মূল দেখুন "
+            android:textSize="20sp"/>
+
+
+
+    <TextView
+        android:id="@+id/resultview"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:background="#00aee5"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:hint="ফলাফল এখানে প্রদর্শিত হবে..."/>
+</LinearLayout>

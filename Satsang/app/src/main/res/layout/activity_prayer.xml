@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_prayer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.aumit.satsang.Prayer">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="রাঃস্বাঃ"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="স্থান ঃ পূর্ব ভাগ, বাংলাদেশ \n অঞ্চলঃ চট্টগ্রাম,সিলেট।"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মাস"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:text="সকাল"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginRight="80dp"/>
+
+
+            <TextView
+                android:text="সন্ধ্যা"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জানুয়ারি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:text="৬-৩২মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="60dp"/>
+
+
+            <TextView
+                android:text="৫-৩০মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="ফেব্রুয়ারি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-২২মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-৪৮মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মার্চ"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৫৯মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-০১মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="এপ্রিল"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৩১মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-১১মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মে"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-১২মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-২৪মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জুন"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-০৯মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৩৫মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জুলাই"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-১৮মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৩৭মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="আগস্ট"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৩০মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-২১মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="সেপ্টেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৩৯মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-৫৪মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="অক্টোবর"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৪৮মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-২৭মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="নভেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-০৪মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-১০মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="ডিসেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-২৬মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-১২মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="স্থান ঃ মধ্যভাগ, বাংলাদেশ \n অঞ্চলঃ বরিশাল,ঢাকা।"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মাস"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:text="সকাল"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginRight="80dp"/>
+
+
+            <TextView
+                android:text="সন্ধ্যা"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জানুয়ারি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:text="৬-৪০মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="60dp"/>
+
+
+            <TextView
+                android:text="৫-৩৪মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="ফেব্রুয়ারি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-২৯মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-৫৩মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মার্চ"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-০৫মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-০৭মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="এপ্রিল"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৩৭মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-১৯মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মে"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-১৭মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৩২মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জুন"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-১৩মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৪৪মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জুলাই"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-২২মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৪৫মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="আগস্ট"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৩৫মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-২৯মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="সেপ্টেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৪৫মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-০১মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="অক্টোবর"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৫৫মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-৩২মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="নভেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-১২মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-১৪মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="ডিসেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-৩১মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-১৬মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="স্থান ঃ পশ্চিমভাগ, বাংলাদেশ \n অঞ্চলঃ খুলনা,রাজশাহী,রংপুর।"
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মাস"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:text="সকাল"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginRight="80dp"/>
+
+
+            <TextView
+                android:text="সন্ধ্যা"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জানুয়ারি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="70dp"/>
+
+            <TextView
+                android:text="৬-৪৮মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="60dp"/>
+
+
+            <TextView
+                android:text="৫-৩৮মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="ফেব্রুয়ারি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-৩৭মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-৫৮মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মার্চ"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-১১মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-১৩মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="এপ্রিল"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৪২মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-২৬মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="মে"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-২১মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৪০মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জুন"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-১৭মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৫৩মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="জুলাই"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-২৬মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৫৩মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="আগস্ট"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৩৯মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-৩৬মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="সেপ্টেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৫-৫১মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৬-০৭মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="অক্টোবর"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-০২মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-৩৮মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="নভেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-২০মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-১৯মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="ডিসেম্বর"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="1"
+                android:layout_marginRight="60dp"/>
+
+            <TextView
+                android:text="৬-৪০মি"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:layout_column="2"
+                android:layout_marginRight="30dp"/>
+
+
+            <TextView
+                android:text="৫-২০মি"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_column="2"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

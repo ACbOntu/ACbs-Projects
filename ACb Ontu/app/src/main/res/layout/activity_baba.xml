@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aumit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="120sp"
+        android:src="@drawable/baba"
+        android:layout_marginTop="10dp"
+       android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="নাম   :  অসীম চক্রবর্তী\nName   :  Ashim Chakrobartay\nপিতা   :   অধীর চক্রবর্তী\nমাতা  :  নমিতা চক্রবর্তী\nDate of Birth :  12 Jun 1968\nBlood Group : - \nNID No. : 7815794476003\nContact "
+        android:textSize="18sp"
+        android:textColor="#a000"/>
+
+    <Button
+        android:id="@+id/callbaba1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01798266981"
+        android:layout_marginLeft="150sp"/>
+
+    <Button
+        android:id="@+id/callbaba2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01632086249"
+        android:layout_marginLeft="150sp"/>
+
+</LinearLayout>

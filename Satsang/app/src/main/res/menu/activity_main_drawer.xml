@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/thakur"
+            android:title="শ্রীশ্রী ঠাকুর" />
+        <item
+            android:id="@+id/activity_prayer_listening"
+            android:title="প্রার্থণা"
+            />
+        <item
+            android:id="@+id/activity_prayer"
+            android:title="প্রার্থণার সময়" />
+
+
+        <item
+            android:id="@+id/activity_satsang"
+            android:title="সৎসঙ্গ" />
+        <item
+            android:id="@+id/activity_satynusoron"
+            android:title="সত্যনুসরন" />
+
+
+
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aumit.satsang">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/satsang"
+        android:label="সৎসঙ্গ"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="সৎসঙ্গ"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".about_thakur"
+            android:label="@string/title_activity_about_thakur"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Prayer" />
+        <activity android:name=".Prayer_listening" />
+        <activity android:name=".satynusoron" />
+        <activity android:name=".satsang" />
+        <activity android:name=".Developer"></activity>
+    </application>
+
+</manifest>

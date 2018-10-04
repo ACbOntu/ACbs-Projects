@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aumit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:src="@drawable/acb"
+        android:layout_gravity="center"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="নাম       : অন্তু চক্রবর্তী\nName   :  Ontu Chakrabarti\nপিতা   :   অসীম চক্রবর্তী\nমাতা  :  অনিতা চক্রবর্তী\nDate of Birth :  07-02-1997\nBlood Group : O+\nNID No. : 19977815794000262"
+        android:textSize="18sp"
+        android:textColor="#a000"/>
+
+    <Button
+        android:id="@+id/callAmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact : 01733978467"
+        android:background="#fff"
+        android:layout_marginLeft="70sp"/>
+
+
+</LinearLayout>

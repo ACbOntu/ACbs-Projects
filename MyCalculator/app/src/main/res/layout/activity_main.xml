@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ক্যালকুলেটর"
+        android:layout_marginTop="10dp"
+        android:textColor="#00a"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_marginTop="30dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:background="#00aee5"
+        android:hint="প্রথম সংখ্যাটি লিখুন"
+        android:textSize="20sp"
+        />
+
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="#00aee5"
+        android:hint="দ্বিতীয় সংখ্যাটি লিখুন"
+        android:textSize="20sp"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="20sp"/>
+
+
+        <Button
+            android:id="@+id/btnminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="20sp"/>
+
+
+
+        <Button
+            android:id="@+id/btninto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="×"
+            android:textSize="20sp"/>
+
+
+
+        <Button
+            android:id="@+id/btndiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="÷"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/eqn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="সমীকরণ ভিত্তিক সমাধান"
+        android:textColor="@color/colorAccent" />
+
+
+    <Button
+        android:id="@+id/sqrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="বর্গমূল নির্ণয় "
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="#00aee5"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:hint="ফলাফল এখানে প্রদর্শিত হবে..."/>
+</LinearLayout>

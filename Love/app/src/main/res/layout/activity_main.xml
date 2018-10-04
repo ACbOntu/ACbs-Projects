@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Hello,Pu,\nThis app is developed only for my cutest,dearest,one of the most causes of my living,my happiness,emotions,feelings and only mine PU.\nSo,only Pu should enter this app.And for your identification,you have to face some steps.\n\nN.B: I believe you,sona.It's just for security."
+        android:textColor="#00ff00"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin ="50dp"
+        android:text="What is the common digit in the sum and difference of our birthday dates ?"
+        android:layout_height="wrap_content"
+        android:textColor="#afeeee"
+        />
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write here"
+        android:gravity="center"
+        android:textColor="#afeeee"
+        android:inputType="numberDecimal"
+        android:textColorHint="#afeeee"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:background="#ff0000"/>
+
+
+</LinearLayout>

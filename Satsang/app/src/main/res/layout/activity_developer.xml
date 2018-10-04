@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_developer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="com.example.aumit.satsang.Developer">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#000"
+        android:textColor="#66FF33"
+        android:text="রাঃস্বাঃ"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000"
+            android:textColor="#66FF33"
+            android:text=" নিজের সম্পূর্ণ ভাল লাগা থেকে ই আমি এপ্স টি ডেভেলপ করেছি । কোন প্রকার বিজ্ঞাপন,খ্যাতি,একাডেমিক বা অন্য কোন বানিজ্যিক কারণে নয় । \n আর সকলের প্রতি অনুরোধ, ঠাকুরের প্রতি বিশ্বাস রাখুন,ভালবাসুন। \n জয়গুরু। \nআমি অধ্যয়নরত,তাই ভুল-ত্রুটি ক্ষমাসুন্দর দৃষ্টিতে দেখবেন। এই এপ্স সংক্রান্ত কোন প্রয়োজন  হলে আমার সাথে যোগাযোগ করতে পারেন - \n"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#000"
+            android:textColor="#66FF33"
+            android:text="অন্তু চক্রবর্তী \nসিএসই ১২তম ব্যাচ,\n পটুয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় । \n  যোগাযোগঃ ০১৭৩৩৯৭৮৪৬৭  \n ই-মেইলঃ acbontu@gmail.com \n ধন্যবাদ, জয়গুরু"/>
+
+
+
+
+
+</LinearLayout>
