@@ -1,0 +1,25 @@
+body{
+
+background: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: black;
+}
+
+.header-top{
+	background: #71282b;
+
+}
+.navbar-header{
+	/* background: #0000FF; */
+	color: #fff;
+
+}
+
+a:hover {
+
+background-color: #0066FF;
+color: #000000;
+
+}
