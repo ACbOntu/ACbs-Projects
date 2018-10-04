@@ -1,0 +1,18 @@
+--------PSTU eShop------
+This is a website for PSTUians,where student can buy different products.
+
+-----User ------
+First,student will register his account by giving his details . A link will be sent to given email id to verify the account . After clicking the link ,the user will become a verified user . Then he will log in his account. 
+
+According to user's faculty and interest ,two types of product will be shown for the user . User can buy the product.
+
+------Admin----
+Admin has a fixed email&password . By giving this ,he will log in . Then admin can upload a new product,update the existing products,view the products,view the user details etc.
+
+
+-----To run the project----
+1.Move the project folder in your htdocs folder .
+2.Import the given database in phpmyadmin having the name of 'eshop'.
+3.start the browser,and go to localhost/PSTU%eShop/index.php
+
+That's it. Enjoy ! Thank you .
